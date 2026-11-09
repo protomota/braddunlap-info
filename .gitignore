@@ -1,0 +1,22 @@
+node_modules/
+.next
+out/
+next-env.d.ts
+*.tsbuildinfo
+.env*
+!.env.example
+.DS_Store
+.vercel/
+.claude/
+.codex/
+*.log
+*.pem
+*.key
+*.p12
+*.pfx
+*.bundle
+output/
+tmp/
+
+# Word lock files
+~$*
