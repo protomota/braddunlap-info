@@ -1,14 +1,13 @@
 """Build the README's ASCII portrait. Requires Pillow; no network calls."""
 
 from html import escape
-from itertools import groupby
 from pathlib import Path
 
 from PIL import Image, ImageDraw, ImageEnhance, ImageOps
 
 ROOT = Path(__file__).resolve().parents[2]
 OUTPUT = ROOT / "docs"
-RAMP = " .,:;irsXA253hMHGS#9B&@"
+RAMP = " .':;!|ijlk*%wWMN&#@"
 
 
 def portrait() -> list[str]:
@@ -23,7 +22,7 @@ def portrait() -> list[str]:
     )
     photo = ImageEnhance.Contrast(ImageOps.autocontrast(photo)).enhance(1.15)
     photo = Image.composite(photo, Image.new("L", photo.size), mask)
-    photo = photo.crop((18, 16, 622, 632)).resize((96, 56), Image.Resampling.LANCZOS)
+    photo = photo.crop((18, 16, 622, 632)).resize((48, 28), Image.Resampling.LANCZOS)
     return ["".join(RAMP[min(len(RAMP) - 1, int((photo.getpixel((x, y)) / 255) ** .85 * (len(RAMP) - 1)))]
                     for x in range(photo.width)).rstrip() for y in range(photo.height)]
 
@@ -65,16 +64,11 @@ def main() -> None:
            '<path d="M1 48H1199" stroke="#30363d"/>',
            '<g fill="#46505e"><circle cx="25" cy="25" r="5"/><circle cx="43" cy="25" r="5"/><circle cx="61" cy="25" r="5"/></g>',
            '<text x="85" y="30" fill="#8b949e" font-family="monospace" font-size="13">protomota / braddunlap-info / README.md</text>',
-           '<g font-family="Menlo,Consolas,monospace" font-size="9" fill="#cbd3df" xml:space="preserve">']
+           '<g font-family="Menlo,Consolas,monospace" font-size="18" fill="#cbd3df" xml:space="preserve">']
     for index, line in enumerate(lines):
         if line:
-            spans = []
-            for character, group in groupby(line):
-                shade = round(40 + 215 * (RAMP.index(character) / (len(RAMP) - 1)) ** 1.4)
-                content = escape("".join(group)).replace(" ", "&#160;")
-                spans.append(f'<tspan fill="rgb({shade},{shade},{shade})">{content}</tspan>')
-            text = "".join(spans)
-            svg.append(f'<text x="26" y="{82 + index * 9.8:.1f}" textLength="{len(line) * 5.4:.1f}" lengthAdjust="spacingAndGlyphs">{text}</text>')
+            text = escape(line).replace(" ", "&#160;")
+            svg.append(f'<text x="26" y="{90 + index * 19.6:.1f}" textLength="{len(line) * 10.8:.1f}" lengthAdjust="spacingAndGlyphs">{text}</text>')
     svg += ['</g>', '<path d="M576 84V602" stroke="#232b36"/>', '<g font-family="Menlo,Consolas,monospace" font-size="16">']
     for index, (line, tone) in enumerate(profile):
         text = escape(line).replace(" ", "&#160;")
