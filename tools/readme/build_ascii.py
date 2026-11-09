@@ -21,7 +21,16 @@ def portrait() -> list[str]:
          (0, 485), (84, 452), (166, 408), (218, 379), (193, 333),
          (180, 271), (173, 208)], fill=255,
     )
+    shirt_mask = Image.new("L", photo.size)
+    ImageDraw.Draw(shirt_mask).polygon(
+        [(432, 339), (468, 364), (540, 401), (640, 447),
+         (640, 640), (0, 640), (0, 485), (84, 452), (166, 408),
+         (218, 379), (225, 431), (250, 473), (285, 500),
+         (330, 510), (380, 490), (415, 440), (430, 390)], fill=255,
+    )
+    shirt_detail = photo.point(lambda value: min(175, 50 + value * 2))
     photo = ImageEnhance.Contrast(ImageOps.autocontrast(photo)).enhance(1.45)
+    photo = Image.composite(shirt_detail, photo, shirt_mask.filter(ImageFilter.GaussianBlur(6)))
     photo = Image.composite(photo, Image.new("L", photo.size), mask)
     photo = photo.crop((80, 10, 540, 470)).resize((48, 28), Image.Resampling.LANCZOS)
     photo = photo.filter(ImageFilter.UnsharpMask(radius=1, percent=150, threshold=3))
