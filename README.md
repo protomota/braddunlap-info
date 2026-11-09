@@ -1,66 +1,10 @@
-```text
-                                         .,,,
-                                  ,:::irAAAXXrri;,. ..
-                                ;sXrrXXXsrsA222sri:,:,..
-                              .s2AAAX2XrrirXXXsrrrri;;::. ,,
-                            :rsXr;;sssAriri:isXXrrrsssri;::;
-                           irA22Ar;isrrr;rs:,,rA2AsrirXXri:...
-                          rA25AsisXA25AXsAXrrsssXAsri;;iXXr:,.
-                         r252sirA3MGGGHhhh233352AAXrsXr;:isr:,.
-                        ,AA2s;shG##SSSSSSMMHHHMMh35A252Ar:,::,.
-                        ,X5Ai2G########SSSGGGGHHMMhhhh352Ai....
-                        .AAiAS#999###SSSSSGGGGGHHMMhMhh333Ai,.
-                        .ssAG99999999#SGGSSSGGGGHHMhhMhhh35s,.  .
-                        .sA3S999999999#SGGGSSSGGHM33hMMMh352r.  .
-                        ,sX3SB99999999##SGGGSSGGGHMMHHMhh3555s. ..
-                        .is2S999999999#SGGHGMGSGHh33hMMh522533r,
-                        ,;:h999#SSSGHMhhMhHSMhh32AA253552AA2532;;i
-                        .irG99#GSSGM352333G#HhXrA222XrrXrrA3h35siX:
-                         sAS99SSSGM3XsA253S#Sh22533hh332225hM32XiXi
-                         r2S99#Gh3Hh5533MS##SM533hMMMMMhMMMMh32XrAr
-                         X3S99#S#9##SHHS####SH3533MHHHGHHHMh332AXAr
-                         A3H999999##SS#9####SGM3223HHGGGHMMh352AA2;
-                         iHH##9###9####GG###SGh5252hHGGGHHMh335AAA:
-                          5SS###999##SHhGGHSGh2srsA3MHGHHHMh335AAA;
-                          ;S###9999#SHhHSh3hh5AXX2333hHHHHMh3352XA;
-                          .h###9999SHMGSGhh32sA3h33h55hMMMMh3552XX;
-                           3#S##99#GGGHGGMMh355552AA2255hMMh355AXX:
-                           ;G##999#SSSHMhMMhhhh3352AXA553MMh332XXs,
-                            A#S##9####GhMGSSGGGHMM333553hMMh352XXr
-                            :GS######GMH#9#S##SSGMh333333hh352AXs:
-                             s######SGGS###9###9#GMhhhMh333552AsX; .
-                              XSS###SSS#####S#GS#SGHMMMhhh52AXXsXs. .
-                               ASSS#SSS#S####SSHGSGHGHMMMh5AXsXsXX,  . ...
-                              . ASSSS###SS9#S#GGGGGGGGhMh35XsXXXAX,   . .,,...
-                           .,,,,,sGGG###HSB#G9GHHGGGGHM3352ssXXA2s    . .,...,. ..
-                          .,,,::. sSGHSGMSB9GSSHMHSGM3M232XsXAA22i . .. ... ....:,,.
-                      .,,;;. i;. ,:h#HGGHS##SHGHMHSGh5h552XXA222X.   .. .,. ...,,....,,,..
-               .:i;::;;i;:. :i. .;,rGSGGHGGGSSHMhHGH5552AAAA2222: . ..  .,....,,....,,,,::,...
-             ,rsr:.,;:i;.  .;,  ::::2SGGGHGSGGGMGGH5552A2225555i ..... ..,....,,..,,,,,,:,..,,,.
-          .;;ii,  ,;::i.   ;:   i,,;:3SGGGGHHMMMh3255255555553r .....  ..,....,,..,,,,,,:....:,.
-         .i;::...,:::i,   ,;.  .i:.:::3SSGGGHMh355533hhh33535; ....,. ...,,...,,,..,,,,:,..,::..
-       ,;:r;,.  .:::;:   .;,   ,i: ,;:,AHSSGGGHMhhhHHHMMhh3X, ....,, ....,,..,,,,.,,,:::..,,:..,
-     ,;r:.i,.  .,:,;;   .::   .:i: ,;;;,r3HSSGHMMMHGSGHM3A: ......:. ...,:,...,:,,.,,::,..,:,.,:
-   ,i::i: i,. .,::i;.   ,:.  .,:i:  :,;;:;X3HHHHHGS#SM5s,  .,,...,,...,,,:,...,::,,,:::..,,:..:,
- ,iir..;; :,...,:;;.   .;.  .,:;i:. ::.:;:::isXAAAAs;,  .,,,,..,,:. .,,,,::...,::,,,:;:..,:,.:,,
-;ii:i: ,;,:.. ,,:i,   .:,  .,:::i:. .;:.:;:,,,.......,,,,.,:,.,,:,. .,,,,::...,:::,,::,..,:.,,,:
-r,;;:; .:::. .,:i,    :,   .,:,:i:. .:i, :;;:::::::::,,.,::,.,,::. .,,,,:;:..,,:::,,:;, .:,.:,:,
-i;.;:;, ,;:...,;:   .::  .,,:,:;i:. .,;;..,;;:::::::,,,:::,.,,:;,..,,,,,:;:..,::::,,:;, .:,,,:,
-:;:.,:: .:,..,;;.  .,:   .,:,,:;i:. .,:i:..::::::::,,,:;:...,:::...,,,,::;:,..::::::;;, ,:,.,:.
-::::.,:, ::,.:i,  .,:.  .,,,,,:;i:. .,,;;,..,::::::::;;:,..,::;,..,,,::::;:,..,:::::;;, ,:..:, ,
-::,,:..: .:,,;:  ..:. .,,,,::,,;i:...,,:i:..,,::;:::;;:,..,::;:..,,,,::::;;,..,:::::;;: ,: ,: .,
-:::,.:. ,.:,:;. ..:, .,::,,:,,,;i:. .,,:;;,..,::::;;;:,..,::;;,..,,::::::;;:..,:::::;;: .:.:, ,,
-..,:,.,...,,:,  .:: .,:::,::,,:i;,. ..,,:i:,.,,::;;::,..,:::;:,.,,:::,:,:;;:,.,:::::;;:..,,: .,:
-,...,, .. ,::.  ::. ,::,,::,,,:i;,....,,:;;:,,::;;::,..,:::;:,..,:::,,:,:;;:,.,::::::::, .,, ,:,
-,,,. ... ..:,  ,:..,::::,::,,:;i:,....,,::;:::::;:,,..,:::;;:,..,:::,,:,:;;::..,::,:::::. ,. :,
-.....  .   :,  :,..,:::,::,,,,;;:,.....,::;;:::::,,..,::::;;,..,::::,:::::;;:, .,,,::,::, ,..: ,
-```
+<a href="https://www.braddunlap.info"><img src="docs/readme-profile.svg" alt="Brad Dunlap. ASCII portrait. AI, product and engineering. Building apps, agents and robots at Protomota." width="1200"></a>
 
 [Website](https://www.braddunlap.info) · [Protomota](https://protomota.com) · [LinkedIn](https://www.linkedin.com/in/bradley-dunlap/) · [YouTube](https://www.youtube.com/@protomota) · [Newsletter](https://newsletter.protomota.com)
 
 I build software, automate the work around it, and make robots do things in the physical world. This is the source for my personal site: experience, selected work, and the things I build through Protomota.
 
-The portrait above is selectable ASCII text in a Markdown code block. [Plain-text portrait](docs/portrait.txt) · [Portrait generator](tools/readme/build_ascii.py)
+The portrait is made from ASCII characters, rendered as a self-contained SVG so the spacing and colors survive GitHub's light and dark themes. [Plain-text portrait](docs/portrait.txt) · [Portrait generator](tools/readme/build_ascii.py)
 
 ### Run locally
 
