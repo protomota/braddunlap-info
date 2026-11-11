@@ -201,7 +201,7 @@ export const SKILLS = [
   {
     icon: "code",
     area: "Product engineering",
-    items: "React, Next.js, Python, APIs, databases, Swift, SwiftUI, iOS, Android, Unity, virtual reality (VR), voice technologies, Internet of Things (IoT), technical design",
+    items: "React, Next.js, Python, REST API development (personal apps), databases, Swift, SwiftUI, iOS, Android, Unity, virtual reality (VR), voice technologies, Internet of Things (IoT), technical design",
   },
   {
     icon: "robot",
@@ -211,7 +211,7 @@ export const SKILLS = [
   {
     icon: "cloud",
     area: "Platform and delivery",
-    items: "Azure, AWS, Cloudflare, Linux administration, Docker, Proxmox, Azure DevOps, JIRA, GitHub Actions, Fastlane, CI/CD pipelines, release automation",
+    items: "Infrastructure as Code (IaC), DevOps, CI/CD pipelines, GitHub Actions, Jenkins, Azure DevOps, Azure, AWS, Cloudflare, Linux administration, Docker, Proxmox, JIRA, Fastlane, release automation",
   },
   {
     icon: "shield",
