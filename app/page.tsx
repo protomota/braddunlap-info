@@ -1,6 +1,6 @@
 import { ProtomotaFamily } from './ProtomotaFamily';
 import { getPosts } from "@/lib/newsletter";
-import { jsonLdString } from "@/lib/seo";
+import { jsonLdString, REEL } from "@/lib/seo";
 import CareerScene from "./CareerScene";
 import ReelPlayer from "./ReelPlayer";
 import ResumePicker from "./ResumePicker";
@@ -358,14 +358,14 @@ export default async function Home() {
           <figure className="reel" data-reveal>
             <div className="reel-frame">
               <ReelPlayer
-                src="https://media.protomota.com/sizzle-reel/v3/master.m3u8"
-                youtubeId="g2V_T0bXmTY"
-                title="Protomota Sizzle Reel"
-                poster="/work/sizzle-reel-poster.webp"
+                src={REEL.hls}
+                mp4={REEL.mp4}
+                title={REEL.name}
+                poster="/work/career-reel-poster.webp"
               />
             </div>
             <figcaption>
-              <span>Protomota Sizzle Reel</span> Motion graphics in 4K at 60 fps, set to my song “One Less&nbsp;Thing”.
+              <span>My career in a minute</span> Twenty years of leading teams and building the thing, in 4K at 60 fps, set to my song “One Less&nbsp;Thing”.
             </figcaption>
           </figure>
           <div className="lab">

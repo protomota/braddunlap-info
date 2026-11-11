@@ -33,13 +33,13 @@ export const RESUME_PDF = `${SITE}/brad-dunlap-resume-2026.pdf`;
 export const RESUME_DOCX = `${SITE}/brad-dunlap-resume-2026.docx`;
 export const RESUME_MD = `${SITE}/brad-dunlap-resume-2026.md`;
 export const REEL = {
-  name: "Protomota Sizzle Reel",
-  description: "Two and a half minutes of my AI video, motion and app work.",
-  hls: "https://media.protomota.com/sizzle-reel/v3/master.m3u8",
-  youtubeId: "g2V_T0bXmTY",
-  poster: `${SITE}/work/sizzle-reel-poster.webp`,
-  duration: "PT2M27S",
-  uploadDate: "2026-11-03",
+  name: "Brad Dunlap: my career in a minute",
+  description: "A one-minute film of my career, from first iOS developer to technical lead and product owner, and the apps, AI agents, MCP servers and robots I build.",
+  hls: "https://media.protomota.com/career-reel/v1/master.m3u8",
+  mp4: "https://media.protomota.com/career-reel/v1/brad-dunlap-career-reel-1080p30.mp4",
+  poster: `${SITE}/work/career-reel-poster.webp`,
+  duration: "PT59S",
+  uploadDate: "2026-11-11",
 };
 
 const PERSON_ID = `${PROTOMOTA}/#brad`;
@@ -182,15 +182,13 @@ export function jsonLd() {
 
   const reel = {
     "@type": "VideoObject",
-    "@id": `${SITE}/#video-sizzle-reel`,
+    "@id": `${SITE}/#video-career-reel`,
     name: REEL.name,
     description: REEL.description,
     thumbnailUrl: REEL.poster,
     uploadDate: REEL.uploadDate,
     duration: REEL.duration,
-    contentUrl: REEL.hls,
-    embedUrl: `https://www.youtube-nocookie.com/embed/${REEL.youtubeId}`,
-    sameAs: `https://www.youtube.com/watch?v=${REEL.youtubeId}`,
+    contentUrl: REEL.mp4,
     creator: ref(PERSON_ID),
     publisher: ref(PROTOMOTA_ID),
   };

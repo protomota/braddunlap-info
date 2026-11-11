@@ -2,25 +2,26 @@
 
 import { useEffect, useRef, useState } from "react";
 
-/* The sizzle reel, streamed (HLS) from Cloudflare R2 at media.protomota.com,
-   the same stream protomota.com/motion plays. Only the poster loads up front;
-   the stream (and hls.js, where the browser can't play HLS itself) loads on
-   the first click. Safari and iOS play HLS natively. If the stream can't play
-   (say the bucket's CORS doesn't allow this site yet), it falls back to the
-   privacy-enhanced YouTube embed of the same reel. */
+/* A film streamed (HLS) from Cloudflare R2 at media.protomota.com. Only the
+   poster loads up front; the stream (and hls.js, where the browser can't play
+   HLS itself) loads on the first click. Safari and iOS play HLS natively. If
+   the stream can't play, it falls back to the same film as a plain MP4, or to
+   a privacy-enhanced YouTube embed when the film has one. */
 export default function ReelPlayer({
   src,
+  mp4,
   youtubeId,
   title,
   poster,
 }: {
   src: string;
-  youtubeId: string;
+  mp4?: string;
+  youtubeId?: string;
   title: string;
   poster: string;
 }) {
   const videoRef = useRef<HTMLVideoElement>(null);
-  const [mode, setMode] = useState<"poster" | "hls" | "youtube">("poster");
+  const [mode, setMode] = useState<"poster" | "hls" | "mp4" | "youtube">("poster");
 
   useEffect(() => {
     if (mode !== "hls") return undefined;
@@ -28,7 +29,7 @@ export default function ReelPlayer({
     if (!video) return undefined;
     let cancelled = false;
     let destroy = () => {};
-    const fallback = () => !cancelled && setMode("youtube");
+    const fallback = () => !cancelled && setMode(mp4 ? "mp4" : youtubeId ? "youtube" : "poster");
     const start = () => video.play().catch(() => {});
     video.addEventListener("error", fallback);
     if (video.canPlayType("application/vnd.apple.mpegurl")) {
@@ -56,12 +57,15 @@ export default function ReelPlayer({
       video.removeEventListener("error", fallback);
       destroy();
     };
-  }, [mode, src]);
+  }, [mode, src, mp4, youtubeId]);
 
   if (mode === "hls") {
     return <video ref={videoRef} poster={poster} controls playsInline aria-label={title} />;
   }
-  if (mode === "youtube") {
+  if (mode === "mp4" && mp4) {
+    return <video src={mp4} poster={poster} controls autoPlay playsInline aria-label={title} />;
+  }
+  if (mode === "youtube" && youtubeId) {
     return (
       <iframe
         src={`https://www.youtube-nocookie.com/embed/${youtubeId}?autoplay=1&rel=0&modestbranding=1&vq=hd1080`}

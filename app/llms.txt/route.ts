@@ -65,7 +65,7 @@ function body() {
   }
   add(
     "",
-    `- [${REEL.name}](https://www.youtube.com/watch?v=${REEL.youtubeId}): ${REEL.description} More at ${PROTOMOTA}/motion.`,
+    `- [${REEL.name}](${REEL.mp4}): ${REEL.description} More at ${PROTOMOTA}/motion.`,
     "",
     "## Skills",
     "",

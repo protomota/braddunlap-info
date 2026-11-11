@@ -507,7 +507,7 @@ figure { margin: 0; }
   .work-card { flex-basis: auto; }
 }
 
-/* ── sizzle reel ──────────────────────────────────────── */
+/* ── reel player ──────────────────────────────────────── */
 .reel { margin: 0 0 18px; }
 .reel-frame {
   position: relative; aspect-ratio: 16 / 9; border-radius: var(--radius-lg); overflow: hidden;
