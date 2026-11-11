@@ -73,6 +73,15 @@ function tie(text: string) {
   return text.replace(/ (\S+)$/, "\u00a0$1");
 }
 
+// Any airesourcepro.com mention in plain copy becomes a link (Brad 2026-11-11: a URL we mention is always a link).
+function linkAirp(text: string) {
+  const parts = text.split("airesourcepro.com");
+  if (parts.length === 1) return text;
+  return parts.flatMap((p, i) =>
+    i === 0 ? [p] : [<a key={i} href="https://airesourcepro.com">airesourcepro.com</a>, p]
+  );
+}
+
 function MailIcon() {
   return (
     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
@@ -263,7 +272,7 @@ export default async function Home() {
                       </div>
                       <ul className="bullets">
                         {r.bullets.map((b) => (
-                          <li key={b}>{tie(b)}</li>
+                          <li key={b}>{linkAirp(tie(b))}</li>
                         ))}
                       </ul>
                     </div>

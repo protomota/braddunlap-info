@@ -682,3 +682,5 @@ figure { margin: 0; }
   html { scroll-behavior: auto; }
   .kicker .dot { animation: none; }
 }
+.bullets a { color: var(--ink); text-decoration: none; border-bottom: 1px solid color-mix(in oklab, var(--accent) 45%, var(--line)); }
+.bullets a:hover { border-color: var(--accent); }
