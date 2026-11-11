@@ -558,7 +558,8 @@ figure { margin: 0; }
 .lab-links strong { grid-area: t; font-family: var(--serif); font-size: 19px; font-weight: 600; letter-spacing: -0.02em; }
 .lab-links span { grid-area: s; color: var(--ink-3); font-size: 13.5px; }
 .lab-links svg { grid-area: i; color: var(--accent); }
-@media (max-width: 980px) { .lab, .lab-links { grid-template-columns: 1fr; } }
+.lab-links.lab-apps { grid-template-columns: repeat(4, 1fr); }
+@media (max-width: 980px) { .lab, .lab-links, .lab-links.lab-apps { grid-template-columns: 1fr; } }
 
 /* ── writing ──────────────────────────────────────────── */
 .posts { list-style: none; margin: 0 0 28px; padding: 0; border-top: 1px solid var(--line); }

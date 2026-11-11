@@ -16,6 +16,7 @@ import {
   SKILLS,
   WORK_ROWS,
   LAB,
+  LAB_APPS,
   LAB_LINKS,
   EDUCATION,
   CERTIFICATIONS,
@@ -338,7 +339,9 @@ export default async function Home() {
             note={
               <p>
                 Protomota is my lab: the apps, AI video, robots and experiments I build on my own time.
-                Everything lives at&nbsp;<a href={PROTOMOTA}>protomota.com</a>.
+                Most of my apps are productivity tools I build for my own work, use every day and give
+                away, and I help businesses get set up on them too. PulseCanvas Studio is the one I made
+                for fun. Everything lives at&nbsp;<a href={PROTOMOTA}>protomota.com</a>.
               </p>
             }
           />
@@ -373,6 +376,15 @@ export default async function Home() {
                   ))}
                 </span>
               </div>
+            ))}
+          </div>
+          <div className="lab-links lab-apps" data-reveal>
+            {LAB_APPS.map((l) => (
+              <a key={l.label} href={l.href}>
+                <strong>{l.label}</strong>
+                <span>{tie(l.text)}</span>
+                <Arrow />
+              </a>
             ))}
           </div>
           <div className="lab-links" data-reveal>

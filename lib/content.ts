@@ -31,12 +31,15 @@ export const CONTACT = [
   { label: "YouTube", href: "https://youtube.com/@protomota" },
 ];
 
+// Order is Brad's (2026-11-11): LinkedIn and Y Combinator first, GitHub last.
+// protomota.com (components/redesign/Socials.js) uses the same order.
 export const SOCIALS = [
   { name: "LinkedIn", href: "https://www.linkedin.com/in/bradley-dunlap/" },
-  { name: "X", href: "https://x.com/protomotalab" },
-  { name: "GitHub", href: "https://github.com/protomota" },
-  { name: "YouTube", href: "https://youtube.com/@protomota" },
+  { name: "Y Combinator", href: "https://www.startupschool.org/cofounder-matching/candidate/GZex5bsDz" },
   { name: "Substack", href: NEWSLETTER },
+  { name: "X", href: "https://x.com/protomotalab" },
+  { name: "YouTube", href: "https://youtube.com/@protomota" },
+  { name: "GitHub", href: "https://github.com/protomota" },
 ];
 
 export const KEY_FIGURES = [
@@ -369,6 +372,14 @@ export const LAB = [
     meta: "Free tutorials and videos",
     text: "Learn AI by building with it: Claude and Codex best practices, computer-use agents, open-weight models on your own GPU.",
   },
+];
+
+// The rest of the app portfolio, in the same order as protomota.com/about.
+export const LAB_APPS = [
+  { label: "Voxley", href: `${PROTOMOTA}/about#apps`, text: "In beta" },
+  { label: "Textley", href: "https://textley.ai", text: "In beta: a Mac editor for text, Markdown and folder vaults, with a Claude connection" },
+  { label: "Inkspring", href: "https://inkspring.ai", text: "Coming soon: a private studio for researching and writing posts" },
+  { label: "OpenTalon", href: `${PROTOMOTA}/#opentalon`, text: "Coming soon: a local task board that hands work to AI agents" },
 ];
 
 export const LAB_LINKS = [
