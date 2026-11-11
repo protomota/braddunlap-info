@@ -29,7 +29,7 @@ Technology leader with 20+ years automating business and technology work, from h
 **Technical Lead and Product Owner** · Jan 2026 – Present
 
 - Lead a small multidisciplinary engineering team building VR, voice and AI-assisted automation applications for a Fortune 500 client's confidential workflow initiative, now in pilot.
-- Direct architecture and implementation across Azure, a Next.js web app, a Unity app and supporting automation.
+- Lead Azure, Next.js and Unity architecture, including Infrastructure as Code (IaC) and CI/CD.
 - Build AI and voice capabilities: speech recognition, text-to-speech, conversational AI and voice commands.
 
 **Research and Development in AI and Robotics Simulation** · Apr 2025 – Dec 2025
@@ -48,7 +48,8 @@ _Independent work outside professional employment_
 
 - Built Jotley solo, from concept through all development, marketing and training materials; live on the App Store.
 - Built PulseCanvas Studio solo the same way; live on the App Store for Mac, iPhone, iPad and Apple Vision Pro.
-- Build AI agents with Claude and Codex that automate workflows, including a custom dashboard for the lab.
+- Build AI agents with Claude and Codex, including a dashboard that automates lab workflows.
+- Built REST APIs for personal apps and automated their environment setup and releases.
 - Run airesourcepro.com and two YouTube channels: free tutorials and videos for learning AI by building with it.
 - Build and program robots with ROS 2, simulate them in NVIDIA Isaac Sim and train them in NVIDIA Isaac Lab.
 - Design robot parts and 3D models in Plasticity CAD and Blender, and 3D-print them.
@@ -62,20 +63,20 @@ _Independent work outside professional employment_
 
 **Director of Quality Experience** · Sep 2017 – Oct 2023
 
-- Led a small QA team; brought TDD and automated UI testing to Vectorform, extending the practice started at RIIS.
+- Led a small QA team and brought TDD and automated UI testing from RIIS to Vectorform.
 
 **Technical Lead, Mobile Application Engineer** · Nov 2012 – Nov 2019
 
 - Led the full lifecycle of seven Stellantis/FCA apps: Mopar, Chrysler, Dodge, Jeep, Ram, Alfa Romeo, Fiat.
 - Led the DTE Energy Insight App and real-time Energy Meter integration from concept through launch, supported FCC approval, and contributed technical and product expertise to its spin-off into a new company, Powerley.
-- Directed 15 Taubman shopping center apps with Bluetooth and Wi-Fi indoor navigation and CI/CD releases.
+- Directed 15 Taubman shopping center apps with Bluetooth and Wi-Fi indoor navigation. Automated environment setup and CI/CD releases for mobile projects.
 
 ### RIIS
 
 **Senior Tech Consultant, Mobile Strategy and App Development** · Oct 2011 – Nov 2012
 
-- Automated everything on a small team running big projects, writing scripts by hand with early dev and QA tools.
-- Directed iOS and Android apps; introduced test-driven development, CI/CD pipelines and automated UI testing.
+- Wrote scripts to provision and configure development and test environments on a small team.
+- Directed iOS and Android apps and introduced test-driven development, Jenkins CI/CD pipelines and automated UI testing.
 - Reverse engineered and penetration tested clients' iOS and Android apps to help harden their security.
 
 ### MRM Worldwide
@@ -95,9 +96,9 @@ _Independent work outside professional employment_
 | Area | Capabilities |
 |---|---|
 | AI and automation | AI engineering, Model Context Protocol (MCP), prompt engineering, AI agents, LLM fine-tuning, end-to-end workflow automation, Claude, Codex, Cursor |
-| Product engineering | React, Next.js, Python, APIs, databases, Swift, SwiftUI, iOS, Android, Unity, virtual reality (VR), voice technologies, Internet of Things (IoT), technical design |
+| Product engineering | React, Next.js, Python, REST API development (personal apps), databases, Swift, SwiftUI, iOS, Android, Unity, virtual reality (VR), voice technologies, Internet of Things (IoT), technical design |
 | Robotics and hardware | NVIDIA Omniverse, Isaac Sim, Isaac Lab, ROS 2, robot assembly and programming, electronics, 3D printing, Blender, Plasticity CAD |
-| Platform and delivery | Azure, AWS, Cloudflare, Linux administration, Docker, Proxmox, Azure DevOps, JIRA, GitHub Actions, Fastlane, CI/CD pipelines, release automation |
+| Platform and delivery | Infrastructure as Code (IaC), DevOps, CI/CD pipelines, GitHub Actions, Jenkins, Azure DevOps, Azure, AWS, Cloudflare, Linux administration, Docker, Proxmox, JIRA, Fastlane, release automation |
 | Testing and security | Playwright, mobile UI automation, BrowserStack, test strategy, QA process design, mobile penetration testing, reverse engineering, vulnerability analysis |
 
 ## Education
