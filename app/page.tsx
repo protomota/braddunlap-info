@@ -1,3 +1,4 @@
+import { ProtomotaFamily } from './ProtomotaFamily';
 import { getPosts } from "@/lib/newsletter";
 import { jsonLdString } from "@/lib/seo";
 import CareerScene from "./CareerScene";
@@ -502,6 +503,7 @@ export default async function Home() {
 
       <ResumePicker id={PICKER} />
 
+      <ProtomotaFamily />
       <footer className="foot">
         <div className="shell foot-inner">
           <a href={PROTOMOTA} className="brand">
