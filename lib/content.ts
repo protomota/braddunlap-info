@@ -27,6 +27,7 @@ export const CONTACT = [
   { label: "brad@protomota.com", href: "mailto:brad@protomota.com" },
   { label: "protomota.com", href: PROTOMOTA },
   { label: "linkedin.com/in/bradley-dunlap", href: "https://www.linkedin.com/in/bradley-dunlap/" },
+  { label: "Y Combinator profile", href: "https://www.startupschool.org/cofounder-matching/candidate/GZex5bsDz" },
   { label: "youtube.com/@protomota", href: "https://youtube.com/@protomota" },
 ];
 
