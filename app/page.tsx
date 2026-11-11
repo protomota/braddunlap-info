@@ -134,12 +134,19 @@ export default async function Home() {
           <CareerScene roles={TIMELINE} quiet={[".hero h1", ".hero-sub"]} />
           <div className="shell hero-grid">
           <div className="hero-copy">
-            <span className="kicker"><span className="dot" /> Resume · Protomota</span>
+            <span className="kicker"><span className="dot" /> Open to new roles · Resume</span>
             <h1>Brad Dunlap</h1>
             <p className="hero-sub">
               Technology leader in <strong>AI, product and engineering</strong>. Technical lead and
               product owner at NTT DATA by day, founder of{" "}
               <a href={PROTOMOTA}>Protomota</a> the rest of the time.
+            </p>
+            <p className="hero-sub hero-open">
+              <strong>I&apos;m currently looking for new opportunities</strong> in AI automation,
+              agentic AI and startups: building automation for small businesses, or joining an
+              early-stage team as a hands-on builder or small-team lead. If you think what I offer
+              fits what you&apos;re building,{" "}
+              <a href={FORM_ON ? "#contact" : "mailto:brad@protomota.com"}>I&apos;d love to hear from&nbsp;you</a>.
             </p>
             <div className="hero-cta">
               <button type="button" popoverTarget={PICKER} className="btn btn-primary btn-lg">

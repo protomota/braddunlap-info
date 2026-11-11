@@ -311,6 +311,7 @@ main, .top, .foot { position: relative; z-index: 1; }
   font-size: clamp(56px, 9.5vw, 148px); line-height: 0.88; letter-spacing: -0.055em;
 }
 .hero-sub { max-width: 600px; margin: 0 0 34px; font-size: clamp(17px, 1.6vw, 20px); line-height: 1.55; color: var(--ink-2); }
+.hero-sub:has(+ .hero-open) { margin-bottom: 16px; }
 .hero-sub strong { color: var(--ink); font-weight: 600; }
 .hero-sub a { color: var(--accent); text-decoration: underline; text-decoration-color: color-mix(in oklab, var(--accent) 45%, transparent); text-underline-offset: 4px; }
 .hero-sub a:hover { color: var(--accent-2); }
