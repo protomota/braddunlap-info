@@ -71,7 +71,7 @@ function body() {
     "",
     ...SKILLS.map((s) => `- ${s.area}: ${s.items}`),
     "",
-    "## Protomota Lab",
+    "## Protomota",
     "",
     "Independent work outside professional employment. Jotley and PulseCanvas Studio are free and source available.",
     "",

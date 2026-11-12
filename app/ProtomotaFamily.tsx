@@ -6,11 +6,11 @@ export function ProtomotaFamily() {
     <div className="shell family-shell">
       <div className="family-inner">
         <div className="family-about">
-          <h2 id="protomota-family-title" className="family-title">More from Protomota Lab</h2>
+          <h2 id="protomota-family-title" className="family-title">More from Protomota</h2>
           <p>Protomota Lab is Brad Dunlap’s independent studio for apps, creative tools, and experiments.</p>
           <a className="family-hub" href="https://protomota.com/#apps">Explore the studio <span aria-hidden="true">↗</span></a>
         </div>
-        <ul className="family-apps" aria-label="Apps by Protomota Lab">
+        <ul className="family-apps" aria-label="Apps by Protomota">
         <li>
           <a className="family-entry" href="https://jotley.ai/">
             <img src="/protomota-apps/jotley.webp" alt="" width={34} height={34} loading="lazy" />

@@ -35,7 +35,7 @@ export const metadata: Metadata = {
   applicationName: "Brad Dunlap",
   authors: [{ name: "Brad Dunlap", url: SITE }],
   creator: "Brad Dunlap",
-  publisher: "Protomota Lab",
+  publisher: "Protomota",
   alternates: { canonical: "/" },
   openGraph: {
     type: "profile",

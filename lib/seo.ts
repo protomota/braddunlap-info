@@ -109,8 +109,8 @@ export function jsonLd() {
   const protomota = {
     "@type": "Organization",
     "@id": PROTOMOTA_ID,
-    name: "Protomota Lab",
-    alternateName: "Protomota",
+    name: "Protomota",
+    alternateName: "Protomota Lab",
     url: `${PROTOMOTA}/`,
     founder: ref(PERSON_ID),
   };

@@ -61,7 +61,7 @@ function notificationEmail({ name, email, subject, message }: Fields) {
           <!-- Header with Logo -->
           <tr>
             <td align="center" style="padding-bottom: 30px;">
-              <img src="https://protomota.com/logo.png?v=20261015" alt="Protomota Lab" width="60" style="display: block;">
+              <img src="https://protomota.com/logo.png?v=20261015" alt="Protomota" width="60" style="display: block;">
               <h1 style="color: #ff8c29; font-size: 24px; margin: 15px 0 5px 0; font-weight: 700;">New Contact Form Submission</h1>
               <p style="color: #888; font-size: 14px; margin: 0;">braddunlap.info</p>
             </td>
@@ -168,7 +168,7 @@ function autoResponseEmail({ name, subject }: Fields) {
           <!-- Header with Logo -->
           <tr>
             <td align="center" style="padding-bottom: 30px;">
-              <img src="https://protomota.com/logo.png?v=20261015" alt="Protomota Lab" width="80" style="display: block;">
+              <img src="https://protomota.com/logo.png?v=20261015" alt="Protomota" width="80" style="display: block;">
             </td>
           </tr>
 
@@ -231,7 +231,7 @@ function autoResponseEmail({ name, subject }: Fields) {
           <!-- Footer -->
           <tr>
             <td align="center" style="padding-top: 20px; border-top: 1px solid rgba(255, 255, 255, 0.05);">
-              <p style="color: #666; font-size: 12px; margin: 0;">© ${new Date().getFullYear()} Protomota Lab. Building the future, one project at a time.</p>
+              <p style="color: #666; font-size: 12px; margin: 0;">© ${new Date().getFullYear()} Protomota. Building the future, one project at a time.</p>
             </td>
           </tr>
         </table>

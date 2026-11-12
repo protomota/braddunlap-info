@@ -122,9 +122,9 @@ export default async function Home() {
 
       <header className="top">
         <div className="shell top-inner">
-          <a href={PROTOMOTA} className="brand" aria-label="Protomota Lab home">
+          <a href={PROTOMOTA} className="brand" aria-label="Protomota home">
             <Mark />
-            Protomota Lab
+            Protomota
           </a>
           <nav className="nav" aria-label="Sections">
             {NAV_ITEMS.map((item) => (
@@ -165,7 +165,7 @@ export default async function Home() {
                 <DownloadIcon /> Download my resume
               </button>
               <a href={PROTOMOTA} className="btn btn-secondary btn-lg">
-                Visit Protomota Lab <Arrow />
+                Visit Protomota <Arrow />
               </a>
             </div>
             <ul className="contact">
@@ -346,7 +346,7 @@ export default async function Home() {
         <section className="section shell" id="protomota">
           <Head
             n="05"
-            title="Protomota Lab"
+            title="Protomota"
             note={
               <p>
                 Protomota Lab is where I build apps, AI video, robots and experiments on my own time.
@@ -472,7 +472,7 @@ export default async function Home() {
           <div className="newsletter" data-reveal>
             <span className="newsletter-icon" aria-hidden="true"><MailIcon /></span>
             <div className="newsletter-copy">
-              <h2>One newsletter. All of Protomota&nbsp;Lab.</h2>
+              <h2>One newsletter. All of Protomota.</h2>
               <p>{tie("Product updates and notes from the things I'm building. Join only if you want to.")}</p>
             </div>
             <a className="btn btn-pill btn-lg" href={NEWSLETTER} target="_blank" rel="noopener">
@@ -509,14 +509,14 @@ export default async function Home() {
         <div className="shell foot-inner">
           <a href={PROTOMOTA} className="brand">
             <Mark size={22} />
-            Protomota Lab
+            Protomota
           </a>
           <nav className="foot-links" aria-label="Elsewhere">
             {SOCIALS.map((s) => (
               <a key={s.name} href={s.href} target="_blank" rel="me noopener">{s.name}</a>
             ))}
           </nav>
-          <span className="foot-copy">© {new Date().getFullYear()} Protomota Lab · Brad Dunlap</span>
+          <span className="foot-copy">© {new Date().getFullYear()} Protomota · Brad Dunlap</span>
         </div>
       </footer>
     </div>
