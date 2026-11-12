@@ -30,7 +30,7 @@ export function ProtomotaFamily() {
         <li>
           <a className="family-entry" href="https://opentalon.ai/">
             <img src="/protomota-apps/opentalon.webp" alt="" width={34} height={34} loading="lazy" />
-            <span><strong>OpenTalon</strong><span className="family-detail">A personal Kanban board for Mac.</span></span>
+            <span><strong>OpenTalon</strong><span className="family-detail">A personal Kanban board for Mac, iPhone, and iPad.</span></span>
             <span className="family-arrow" aria-hidden="true">↗</span>
           </a>
           <span className="family-soon">Coming soon</span>
@@ -38,7 +38,7 @@ export function ProtomotaFamily() {
         <li>
           <a className="family-entry" href="https://inkspring.ai/">
             <img src="/protomota-apps/inkspring.webp" alt="" width={34} height={34} loading="lazy" />
-            <span><strong>Inkspring</strong><span className="family-detail">A desktop studio for research and writing.</span></span>
+            <span><strong>Inkspring</strong><span className="family-detail">A research and writing studio for Mac, iPhone, and iPad.</span></span>
             <span className="family-arrow" aria-hidden="true">↗</span>
           </a>
           <span className="family-soon">Coming soon</span>
