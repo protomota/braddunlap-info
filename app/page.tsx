@@ -350,8 +350,8 @@ export default async function Home() {
               <p>
                 Protomota is my lab: the apps, AI video, robots and experiments I build on my own time.
                 Most of my apps are productivity tools I build for my own work, use every day and give
-                away, and I help businesses get set up on them too. PulseCanvas Studio is the one I made
-                for fun. Everything lives at&nbsp;<a href={PROTOMOTA}>protomota.com</a>.
+                away, and I help businesses get set up on them too. PulseCanvas Studio is my music video
+                app. Everything lives at&nbsp;<a href={PROTOMOTA}>protomota.com</a>.
               </p>
             }
           />

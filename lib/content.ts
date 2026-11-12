@@ -352,7 +352,7 @@ export const LAB = [
     icon: "/img/jotley-144.png",
     href: "https://jotley.ai",
     host: "jotley.ai",
-    meta: "Mac · iPhone · iPad · Free",
+    meta: "Mac · iPhone · iPad · On the App Store",
     text: "Private AI notes. Transcribes speech live, then summarizes and answers questions on the device with Apple Intelligence.",
   },
   {
@@ -360,7 +360,7 @@ export const LAB = [
     icon: "/img/pulsecanvas-144.png",
     href: "https://pulsecanvas.si",
     host: "pulsecanvas.si",
-    meta: "Mac · iPhone · iPad · Vision Pro · Free",
+    meta: "Mac · iPhone · iPad · Vision Pro · On the App Store",
     text: "Music visualizer and video maker. Finds the beat, splits a song into sections and exports music-synced video up to 4K at 60 fps.",
   },
   {
@@ -374,12 +374,13 @@ export const LAB = [
   },
 ];
 
-// The rest of the app portfolio, in the same order as protomota.com/about.
+// The rest of the app portfolio, in the same order as protomota.com/about
+// (Brad 2026-11-12: Jotley, PulseCanvas, then OpenTalon, Inkspring, Voxley, Textley).
 export const LAB_APPS = [
-  { label: "Voxley", href: `${PROTOMOTA}/about#apps`, text: "In beta" },
-  { label: "Textley", href: "https://textley.ai", text: "In beta: a Mac editor for text, Markdown and folder vaults, with a Claude connection" },
+  { label: "OpenTalon", href: "https://opentalon.ai", text: "Coming soon: a local task board that hands work to AI agents" },
   { label: "Inkspring", href: "https://inkspring.ai", text: "Coming soon: a private studio for researching and writing posts" },
-  { label: "OpenTalon", href: `${PROTOMOTA}/#opentalon`, text: "Coming soon: a local task board that hands work to AI agents" },
+  { label: "Voxley", href: "https://voxley.si", text: "Coming soon: private dictation for Mac" },
+  { label: "Textley", href: "https://textley.ai", text: "Coming soon: a Mac editor for text, Markdown and folder vaults, with a Claude connection" },
 ];
 
 export const LAB_LINKS = [
