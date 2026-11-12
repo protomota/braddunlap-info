@@ -16,7 +16,7 @@ export const NAV = [
   { label: "Experience", url: "#experience" },
   { label: "Work", url: "#work" },
   { label: "Skills", url: "#skills" },
-  { label: "Protomota", url: "#protomota" },
+  { label: "Protomota Lab", url: "#protomota" },
   { label: "Writing", url: "#writing" },
   { label: "Credentials", url: "#credentials" },
   { label: "Contact", url: "#contact" },

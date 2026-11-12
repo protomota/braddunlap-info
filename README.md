@@ -1,8 +1,8 @@
-<a href="https://www.braddunlap.info"><img src="docs/readme-profile.svg" alt="Brad Dunlap. ASCII portrait. AI, product and engineering. Building apps, agents and robots at Protomota." width="1200"></a>
+<a href="https://www.braddunlap.info"><img src="docs/readme-profile.svg" alt="Brad Dunlap. ASCII portrait. AI, product and engineering. Building apps, agents and robots at Protomota Lab." width="1200"></a>
 
 [Website](https://www.braddunlap.info) · [Protomota](https://protomota.com) · [LinkedIn](https://www.linkedin.com/in/bradley-dunlap/) · [YouTube](https://www.youtube.com/@protomota) · [Newsletter](https://newsletter.protomota.com)
 
-I build software, automate the work around it, and make robots do things in the physical world. This is the source for my personal site: experience, selected work, and the things I build through Protomota.
+I build software, automate the work around it, and make robots do things in the physical world. This is the source for my personal site: experience, selected work, and the things I build through Protomota Lab.
 
 The portrait is made from ASCII characters, rendered as a self-contained SVG so the spacing and colors survive GitHub's light and dark themes. [Plain-text portrait](docs/portrait.txt) · [Portrait generator](tools/readme/build_ascii.py)
 

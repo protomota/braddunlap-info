@@ -24,7 +24,7 @@ import {
 
 export const TITLE = "Brad Dunlap · Resume · AI, product and engineering leader";
 export const DESCRIPTION =
-  "Brad Dunlap's resume: 20+ years in software and product. Tech lead and product owner at NTT DATA, founder of Protomota, building AI apps, agents and robots.";
+  "Brad Dunlap's resume: 20+ years in software and product. Tech lead and product owner at NTT DATA, founder of Protomota Lab, building AI apps, agents and robots.";
 export const SUMMARY =
   "Technology leader with 20+ years automating business and technology work, from hand-written scripts, test-driven development and CI/CD pipelines at RIIS to AI agents built with Claude and Codex today. Focuses on signal over noise and roots out performance theater: work that checks boxes but doesn't move the needle. At NTT DATA, leads the team behind a Fortune 500 AI pilot. Now, with AI as a force multiplier, builds apps, robots and AI agent systems solo through Protomota Lab.";
 export const OG_IMAGE = { url: "/og-image.jpg?v=20261105b", width: 1200, height: 630, alt: "Brad Dunlap: 20+ years in AI, product and engineering, beside a wall of my apps, videos and experiments" };
@@ -109,7 +109,8 @@ export function jsonLd() {
   const protomota = {
     "@type": "Organization",
     "@id": PROTOMOTA_ID,
-    name: "Protomota",
+    name: "Protomota Lab",
+    alternateName: "Protomota",
     url: `${PROTOMOTA}/`,
     founder: ref(PERSON_ID),
   };

@@ -33,7 +33,7 @@ function body() {
     "",
     `> ${SUMMARY}`,
     "",
-    "Technology leader in AI, product and engineering. Technical lead and product owner at NTT DATA, founder of Protomota (protomota.com). This file restates the resume page at " +
+    "Technology leader in AI, product and engineering. Technical lead and product owner at NTT DATA, founder of Protomota Lab (protomota.com). This file restates the resume page at " +
       `${SITE}/ in plain Markdown.`,
     "",
     "## Resume and contact",
@@ -83,7 +83,7 @@ function body() {
     "",
     "## Writing",
     "",
-    `- [The Protomota newsletter](${NEWSLETTER}): what I'm building and what I learn along the way.`,
+    `- [The Protomota Lab newsletter](${NEWSLETTER}): what I'm building and what I learn along the way.`,
     "",
     "## Credentials",
     "",
