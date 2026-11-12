@@ -100,6 +100,7 @@ _Independent work outside professional employment_
 | Robotics and hardware | NVIDIA Omniverse, Isaac Sim, Isaac Lab, ROS 2, robot assembly and programming, electronics, 3D printing, Blender, Plasticity CAD |
 | Platform and delivery | Infrastructure as Code (IaC), DevOps, CI/CD pipelines, GitHub Actions, Jenkins, Azure DevOps, Azure, AWS, Cloudflare, Linux administration, Docker, Proxmox, JIRA, Fastlane, release automation |
 | Testing and security | Playwright, mobile UI automation, BrowserStack, test strategy, QA process design, mobile penetration testing, reverse engineering, vulnerability analysis |
+| Methods | Agile, Scrum, Scaled Agile (SAFe), XP, TDD, PI planning, backlog management, estimation, scope governance |
 
 ## Education
 
