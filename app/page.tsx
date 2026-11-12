@@ -153,10 +153,11 @@ export default async function Home() {
               <a href={PROTOMOTA}>Protomota</a> the rest of the time.
             </p>
             <p className="hero-sub hero-open">
-              <strong>I&apos;m currently looking for new opportunities</strong> in AI automation,
-              agentic AI and startups: building automation for small businesses, or joining an
-              early-stage team as a hands-on builder or small-team lead. If you think what I offer
-              fits what you&apos;re building,{" "}
+              <strong>I&apos;m currently looking for new opportunities</strong> in AI automation
+              and agentic AI. I&apos;m open to AI-first teams of any size, from an early-stage
+              startup to a large company with AI at its core, where I can help ship AI that does
+              real work. I also build automation for small businesses through Protomota. If you
+              think what I offer fits what you&apos;re building,{" "}
               <a href={FORM_ON ? "#contact" : "mailto:brad@protomota.com"}>I&apos;d love to hear from&nbsp;you</a>.
             </p>
             <div className="hero-cta">
