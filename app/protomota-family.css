@@ -102,3 +102,19 @@
 }
 
 .protomota-family-block { font-family: var(--sans); }
+
+/* App status under each entry (2026-11-12): App Store link or Coming soon. */
+.protomota-family-block .family-apps > li { display: flex; flex-direction: column; }
+.protomota-family-block .family-entry { min-height: 52px; padding-block-end: 2px; }
+.protomota-family-block .family-store,
+.protomota-family-block .family-soon {
+  align-self: flex-start;
+  margin: 0 0 6px 48px;
+  font-size: .75rem;
+  font-weight: 650;
+  line-height: 1.3;
+  letter-spacing: .01em;
+}
+.protomota-family-block .family-store { color: var(--family-link); text-decoration: none; }
+.protomota-family-block .family-store:is(:hover, :focus-visible) { text-decoration: underline; text-underline-offset: 3px; }
+.protomota-family-block .family-soon { color: var(--family-muted); }

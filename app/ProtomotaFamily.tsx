@@ -17,6 +17,7 @@ export function ProtomotaFamily() {
             <span><strong>Jotley</strong><span className="family-detail">On-device voice notes and transcripts.</span></span>
             <span className="family-arrow" aria-hidden="true">↗</span>
           </a>
+          <a className="family-store" href="https://apps.apple.com/us/app/jotley-private-ai-notes/id6746770199">Available on the App Store <span aria-hidden="true">↗</span></a>
         </li>
         <li>
           <a className="family-entry" href="https://pulsecanvas.si/">
@@ -24,6 +25,15 @@ export function ProtomotaFamily() {
             <span><strong>PulseCanvas Studio</strong><span className="family-detail">Turn music into video that moves to the beat.</span></span>
             <span className="family-arrow" aria-hidden="true">↗</span>
           </a>
+          <a className="family-store" href="https://apps.apple.com/us/app/pulsecanvas-studio/id6821642700">Available on the App Store <span aria-hidden="true">↗</span></a>
+        </li>
+        <li>
+          <a className="family-entry" href="https://opentalon.ai/">
+            <img src="/protomota-apps/opentalon.webp" alt="" width={34} height={34} loading="lazy" />
+            <span><strong>OpenTalon</strong><span className="family-detail">A personal Kanban board for Mac.</span></span>
+            <span className="family-arrow" aria-hidden="true">↗</span>
+          </a>
+          <span className="family-soon">Coming soon</span>
         </li>
         <li>
           <a className="family-entry" href="https://inkspring.ai/">
@@ -31,20 +41,7 @@ export function ProtomotaFamily() {
             <span><strong>Inkspring</strong><span className="family-detail">A desktop studio for research and writing.</span></span>
             <span className="family-arrow" aria-hidden="true">↗</span>
           </a>
-        </li>
-        <li>
-          <a className="family-entry" href="https://opentalon-website.vercel.app/">
-            <img src="/protomota-apps/opentalon.webp" alt="" width={34} height={34} loading="lazy" />
-            <span><strong>OpenTalon</strong><span className="family-detail">A personal Kanban board for Mac.</span></span>
-            <span className="family-arrow" aria-hidden="true">↗</span>
-          </a>
-        </li>
-        <li>
-          <a className="family-entry" href="https://textley.ai/">
-            <img src="/protomota-apps/textley.webp" alt="" width={34} height={34} loading="lazy" />
-            <span><strong>Textley</strong><span className="family-detail">A native text and code editor for Mac.</span></span>
-            <span className="family-arrow" aria-hidden="true">↗</span>
-          </a>
+          <span className="family-soon">Coming soon</span>
         </li>
         <li>
           <a className="family-entry" href="https://voxley.si/">
@@ -52,6 +49,15 @@ export function ProtomotaFamily() {
             <span><strong>Voxley</strong><span className="family-detail">Private dictation for Mac.</span></span>
             <span className="family-arrow" aria-hidden="true">↗</span>
           </a>
+          <span className="family-soon">Coming soon</span>
+        </li>
+        <li>
+          <a className="family-entry" href="https://textley.ai/">
+            <img src="/protomota-apps/textley.webp" alt="" width={34} height={34} loading="lazy" />
+            <span><strong>Textley</strong><span className="family-detail">A native text and code editor for Mac.</span></span>
+            <span className="family-arrow" aria-hidden="true">↗</span>
+          </a>
+          <span className="family-soon">Coming soon</span>
         </li>
         </ul>
       </div>
