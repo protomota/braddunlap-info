@@ -377,10 +377,10 @@ export const LAB = [
 // The rest of the app portfolio, in the same order as protomota.com/about
 // (Brad 2026-11-12: Jotley, PulseCanvas, then OpenTalon, Inkspring, Voxley, Textley).
 export const LAB_APPS = [
-  { label: "OpenTalon", href: "https://opentalon.ai", text: "Coming soon for Mac, iPhone and iPad: a local task board that hands work to AI agents" },
-  { label: "Inkspring", href: "https://inkspring.ai", text: "Coming soon for Mac, iPhone and iPad: a private studio for researching and writing posts" },
-  { label: "Voxley", href: "https://voxley.si", text: "Coming soon: private dictation for Mac" },
-  { label: "Textley", href: "https://textley.ai", text: "Coming soon: a Mac editor for text, Markdown and folder vaults, with a Claude connection" },
+  { label: "OpenTalon", href: "https://opentalon.ai", text: "Available for Mac: a local task board that hands work to AI agents. iPhone and iPad apps coming soon" },
+  { label: "Inkspring", href: "https://inkspring.ai", text: "Available for Mac: a private studio for researching and writing posts. iPhone and iPad apps coming soon" },
+  { label: "Voxley", href: "https://voxley.si", text: "Available for Mac: private dictation" },
+  { label: "Textley", href: "https://textley.ai", text: "Available for Mac: an editor for text, Markdown and folder vaults, with a Claude connection" },
 ];
 
 export const LAB_LINKS = [
