@@ -24,9 +24,9 @@ import {
 
 export const TITLE = "Brad Dunlap · Resume · AI, product and engineering leader";
 export const DESCRIPTION =
-  "Brad Dunlap's resume: 20+ years in software and product. Tech lead and product owner at NTT DATA, founder of Protomota Lab, building AI apps, agents and robots.";
+  "Brad Dunlap's resume: 20+ years in software and product. Tech lead and product owner at NTT DATA, founder of Protomota Lab, building AI-powered apps and AI agents.";
 export const SUMMARY =
-  "Technology leader with 20+ years automating business and technology work, from hand-written scripts, test-driven development and CI/CD pipelines at RIIS to AI agents built with Claude and Codex today. Focuses on signal over noise and roots out performance theater: work that checks boxes but doesn't move the needle. At NTT DATA, leads the team behind a Fortune 500 AI pilot. Now, with AI as a force multiplier, builds apps, robots and AI agent systems solo through Protomota Lab.";
+  "Technology leader with 20+ years automating business and technology work, from hand-written scripts, test-driven development and CI/CD pipelines at RIIS to AI agents built with Claude and Codex today. Focuses on signal over noise and roots out performance theater: work that checks boxes but doesn't move the needle. At NTT DATA, leads the team behind a Fortune 500 AI pilot. Now, with AI as a force multiplier, builds and ships native AI-powered apps and AI agent systems solo through Protomota Lab.";
 export const OG_IMAGE = { url: "/og-image.jpg?v=20261105b", width: 1200, height: 630, alt: "Brad Dunlap: 20+ years in AI, product and engineering, beside a wall of my apps, videos and experiments" };
 export const PORTRAIT = { url: `${SITE}/img/brad.jpg`, width: 640, height: 640 };
 export const RESUME_PDF = `${SITE}/brad-dunlap-resume-2026.pdf`;
@@ -166,7 +166,7 @@ export function jsonLd() {
       ]
     : [];
 
-  // The other Selected work cards: experiments, robots, prints and video.
+  // The other Selected work cards: the Mac apps.
   const skip = new Set(["jotley", "pulsecanvas", "ai-resource-pro"]);
   const works = WORK_ROWS.flat()
     .filter((w) => !skip.has(w.key))

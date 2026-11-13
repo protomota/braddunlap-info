@@ -6,7 +6,7 @@ Bradenton, FL · [brad@protomota.com](mailto:brad@protomota.com) · <https://bra
 
 ## Summary
 
-Technology leader with 20+ years automating business and technology work, from hand-written scripts, test-driven development and CI/CD pipelines at RIIS to AI agents built with Claude and Codex today. Focuses on signal over noise and roots out performance theater: work that checks boxes but doesn't move the needle. At NTT DATA, leads the team behind a Fortune 500 AI pilot. Now, with AI as a force multiplier, builds apps, robots and AI agent systems solo through Protomota Lab.
+Technology leader with 20+ years automating business and technology work, from hand-written scripts, test-driven development and CI/CD pipelines at RIIS to AI agents built with Claude and Codex today. Focuses on signal over noise and roots out performance theater: work that checks boxes but doesn't move the needle. At NTT DATA, leads the team behind a Fortune 500 AI pilot. Now, with AI as a force multiplier, builds and ships native AI-powered apps and AI agent systems solo through Protomota Lab.
 
 ## Key figures
 
@@ -16,7 +16,7 @@ Technology leader with 20+ years automating business and technology work, from h
 | Overruns during scoping program | 0 projects |
 | Apps built solo, live on the App Store | 2 |
 | Self-published websites and web apps | 6 |
-| YouTube channels | 2 |
+| Native apps shipped through Protomota Lab | 6 |
 | Automotive brand apps led | 7 |
 | Shopping center apps directed | 15 |
 
@@ -48,11 +48,11 @@ _Independent work outside professional employment_
 
 - Built Jotley solo, from concept through all development, marketing and training materials; live on the App Store.
 - Built PulseCanvas Studio solo the same way; live on the App Store for Mac, iPhone, iPad and Apple Vision Pro.
+- Shipped four Mac apps, available from their websites: OpenTalon, Inkspring, Voxley and Textley.
 - Build AI agents with Claude and Codex, including a dashboard that automates lab workflows.
 - Built REST APIs for personal apps and automated their environment setup and releases.
 - Run airesourcepro.com and two YouTube channels: free tutorials and videos for learning AI by building with it.
-- Build and program robots with ROS 2, simulate them in NVIDIA Isaac Sim and train them in NVIDIA Isaac Lab.
-- Design robot parts and 3D models in Plasticity CAD and Blender, and 3D-print them.
+- Hobby builds: robots with ROS 2, NVIDIA Isaac Sim and Isaac Lab, plus CAD and 3D printing.
 
 ### Vectorform
 
@@ -96,11 +96,11 @@ _Independent work outside professional employment_
 | Area | Capabilities |
 |---|---|
 | AI and automation | AI engineering, Model Context Protocol (MCP), prompt engineering, AI agents, LLM fine-tuning, end-to-end workflow automation, Claude, Codex, Cursor |
-| Product engineering | React, Next.js, Python, REST API development (personal apps), databases, Swift, SwiftUI, iOS, Android, Unity, virtual reality (VR), voice technologies, Internet of Things (IoT), technical design |
-| Robotics and hardware | NVIDIA Omniverse, Isaac Sim, Isaac Lab, ROS 2, robot assembly and programming, electronics, 3D printing, Blender, Plasticity CAD |
+| Product engineering | React, Next.js, Python, REST API development (personal apps), databases, Swift, SwiftUI, macOS, iOS, Android, Unity, virtual reality (VR), voice technologies, Internet of Things (IoT), technical design |
 | Platform and delivery | Infrastructure as Code (IaC), DevOps, CI/CD pipelines, GitHub Actions, Jenkins, Azure DevOps, Azure, AWS, Cloudflare, Linux administration, Docker, Proxmox, JIRA, Fastlane, release automation |
 | Testing and security | Playwright, mobile UI automation, BrowserStack, test strategy, QA process design, mobile penetration testing, reverse engineering, vulnerability analysis |
 | Methods | Agile, Scrum, Scaled Agile (SAFe), XP, TDD, PI planning, backlog management, estimation, scope governance |
+| Robotics and hardware | NVIDIA Omniverse, Isaac Sim, Isaac Lab, ROS 2, robot assembly and programming, electronics, 3D printing, Blender, Plasticity CAD |
 
 ## Education
 
@@ -138,58 +138,37 @@ Music visualizer and video maker for Mac, iPhone, iPad and Apple Vision Pro. Fin
 - Swift, SwiftUI, Metal, export up to 4K at 60 fps
 - <https://pulsecanvas.si>
 
-### AI Resource Pro
+### OpenTalon
 
-Free tutorials and videos for learning AI by building with it: Claude and Codex best practices, computer-use agents and open-weight models on your own GPU.
+A personal Kanban board for you and your AI agents. Claude Code and Codex agents pick up tasks through its built-in MCP connector and report back. Tasks stay in a local database on your Mac, with no account.
 
-- Full product: design, site, tutorials, videos.
-- Next.js, TypeScript, Supabase
-- <https://airesourcepro.com>
-- <https://www.youtube.com/@airesourcepro>
+- Mac app available; iPhone and iPad apps coming soon.
+- Native Mac app, MCP connector, Claude Code, Codex
+- <https://opentalon.ai>
 
-### Everything we've ever launched
+### Inkspring
 
-Interactive 3D simulation of every object tracked in Earth orbit since Sputnik, appearing launch by launch on a 3D Earth. Stop at milestone ships, search any object, and see how much of it is junk.
+A private studio for research and writing on Apple Silicon Macs. Find what your niche is talking about, write posts in your voice and keep the workspace on your Mac.
 
-- Open source, with a narrated film.
-- 3D data visualization, web
-- <https://protomota.com/experiments/everything-launched>
+- Mac app available; iPhone and iPad apps coming soon.
+- Native Mac app, Claude or OpenAI with your own key
+- <https://inkspring.ai>
 
-### iPhone Duo teardown
+### Voxley
 
-A folding iPhone rebuilt in code. Take it apart in repair order and tap any part to see where the numbers came from.
+Private dictation for Mac. Press a shortcut in any app and speak; Apple Speech transcribes on your Mac, and Apple Intelligence can tidy the text.
 
-- Interactive teardown with a narrated film.
-- Interactive 3D, web
-- <https://protomota.com/experiments/iphone-duo-teardown>
+- Mac app available.
+- Native Mac app, Apple Speech, Apple Intelligence
+- <https://voxley.si>
 
-### AI video and motion
+### Textley
 
-Clips, short films, titles and visuals that move to music.
+A Mac editor for code, text and Markdown. Open your folders, preview Markdown, and let Claude Code or Codex work in the same files.
 
-- <https://protomota.com/motion>
-- <https://www.youtube.com/@protomota>
-
-### Project Ogre
-
-Mecanum-drive robot on a Jetson Orin Nano with omnidirectional drive, RPLIDAR, RealSense depth and autonomous navigation with SLAM and Nav2, trained in Isaac Lab. Documented in five parts.
-
-- ROS 2, Isaac Lab, Isaac Sim, SLAM, Nav2, Jetson Orin Nano
-- <https://newsletter.protomota.com/p/project-ogre-part-1-building-a-mecanum>
-
-### SO-ARM 101 digital twin
-
-A leader arm drives a 6-axis arm in Isaac Sim in real time.
-
-- Isaac Sim, ROS 2, LeRobot
-- <https://newsletter.protomota.com/p/real-time-so-arm-101-ros2-teleoperation>
-
-### JetBot Orin
-
-The NVIDIA JetBot, rebuilt for the Jetson Orin Nano with a custom chassis.
-
-- Jetson Orin, OpenCV
-- <https://newsletter.protomota.com/p/project-nvidia-jetbot-orin-nano>
+- Mac app available.
+- Native Mac app, MCP connector
+- <https://textley.ai>
 
 More work: <https://protomota.com> · <https://github.com/protomota> · <https://newsletter.protomota.com> · <https://x.com/protomotalab>
 

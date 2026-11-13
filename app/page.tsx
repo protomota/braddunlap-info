@@ -202,7 +202,7 @@ export default async function Home() {
                 automation.
               </p>
               <p>
-                Outside work I build native apps, robots and AI agent systems through{" "}
+                Outside work I build and ship native AI-powered apps and AI agent systems through{" "}
                 <a href={PROTOMOTA}>Protomota&nbsp;Lab</a>.
               </p>
             </div>
@@ -349,8 +349,8 @@ export default async function Home() {
             title="Protomota"
             note={
               <p>
-                Protomota Lab is where I build apps, AI video, robots and experiments on my own time.
-                Most of my apps are productivity tools I build for my own work, use every day and give
+                Protomota Lab is where I build and ship my own apps: Jotley and PulseCanvas Studio on the
+                App Store, plus OpenTalon, Inkspring, Voxley and Textley for Mac. Most of my apps are productivity tools I build for my own work, use every day and give
                 away, and I help businesses get set up on them too. PulseCanvas Studio is my music video
                 app. Everything lives at&nbsp;<a href={PROTOMOTA}>protomota.com</a>.
               </p>
