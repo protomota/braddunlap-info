@@ -198,8 +198,7 @@ export default async function Home() {
               <p>
                 I lead multidisciplinary teams and connect business priorities to application design,
                 architecture and implementation. At NTT DATA I&apos;m the technical lead and product
-                owner for a Fortune 500 initiative in virtual reality, voice and AI-assisted
-                automation.
+                owner for a Fortune 500 initiative in virtual reality, voice and <span style={{ whiteSpace: "nowrap" }}>AI-assisted automation.</span>
               </p>
               <p>
                 Outside work I build and ship native AI-powered apps and AI agent systems through{" "}
