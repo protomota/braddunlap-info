@@ -118,3 +118,7 @@
 .protomota-family-block .family-store { color: var(--family-link); text-decoration: none; }
 .protomota-family-block .family-store:is(:hover, :focus-visible) { text-decoration: underline; text-underline-offset: 3px; }
 .protomota-family-block .family-soon { color: var(--family-muted); }
+
+/* App icons: a hairline edge and a soft glow (dark) or shadow (light), so dark icons
+   show on dark backgrounds and light icons on light ones. */
+.protomota-family-block .family-entry img { filter: drop-shadow(0 0 .6px rgb(255 255 255 / .55)) drop-shadow(0 0 7px rgb(255 255 255 / .16)); }
