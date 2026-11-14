@@ -43,7 +43,8 @@ async function sendEmail(apiKey: string, email: Record<string, unknown>) {
 
 // Every inquiry is also a business lead in HubSpot (Inquiry site: braddunlap.info).
 // protomota.com holds the HubSpot key, so the lead goes through its /api/inbound-lead,
-// signed with INBOUND_LEAD_SECRET. Awaited (8s cap) and never fails the form.
+// signed with INBOUND_LEAD_SECRET (Vercel Production env; same value on protomota-com and
+// the email-worker). Awaited (8s cap) and never fails the form.
 async function sendLeadToHubSpot(fields: Fields) {
   const secret = clean(process.env.INBOUND_LEAD_SECRET);
   if (!secret) {
