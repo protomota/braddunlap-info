@@ -1,0 +1,8 @@
+name = "braddunlap-info-email"
+main = "src/index.js"
+compatibility_date = "2026-10-01"
+account_id = "36090598a0df96b2a7bafd9119b3a15b"
+workers_dev = false
+
+[observability]
+enabled = true

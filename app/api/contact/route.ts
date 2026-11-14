@@ -41,6 +41,28 @@ async function sendEmail(apiKey: string, email: Record<string, unknown>) {
   if (!res.ok) throw new Error(`Resend ${res.status}: ${await res.text()}`);
 }
 
+// Every inquiry is also a business lead in HubSpot (Inquiry site: braddunlap.info).
+// protomota.com holds the HubSpot key, so the lead goes through its /api/inbound-lead,
+// signed with INBOUND_LEAD_SECRET. Awaited (8s cap) and never fails the form.
+async function sendLeadToHubSpot(fields: Fields) {
+  const secret = clean(process.env.INBOUND_LEAD_SECRET);
+  if (!secret) {
+    console.warn("[hubspot] INBOUND_LEAD_SECRET not set, skipping CRM sync");
+    return;
+  }
+  try {
+    const res = await fetch("https://protomota.com/api/inbound-lead", {
+      method: "POST",
+      headers: { Authorization: `Bearer ${secret}`, "Content-Type": "application/json" },
+      body: JSON.stringify({ site: "braddunlap.info", source: "Contact form", page: "braddunlap.info/#contact", ...fields }),
+      signal: AbortSignal.timeout(8000),
+    });
+    console.log(`[hubspot] inbound-lead ${res.status}: ${(await res.text()).slice(0, 200)}`);
+  } catch (error) {
+    console.error("[hubspot] inbound-lead failed:", error);
+  }
+}
+
 type Fields = { name: string; email: string; subject: string; message: string };
 
 // Branded email template for the alert to Brad (copied from protomota.com)
@@ -290,6 +312,7 @@ export async function POST(req: Request) {
       subject: `Thanks for reaching out! Re: ${fields.subject}`,
       html: autoResponseEmail(fields),
     });
+    await sendLeadToHubSpot(fields);
     return NextResponse.json({ message: "Message sent successfully!" });
   } catch (error) {
     console.error("Error sending email:", error);
