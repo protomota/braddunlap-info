@@ -10,6 +10,8 @@
 export const SITE = "https://www.braddunlap.info";
 export const PROTOMOTA = "https://protomota.com";
 export const NEWSLETTER = "https://newsletter.protomota.com/";
+// The Cult of Protomota Discord (protomota.com/discord redirects to the permanent invite).
+export const DISCORD = "https://protomota.com/discord";
 
 export const NAV = [
   { label: "Profile", url: "#profile" },

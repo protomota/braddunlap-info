@@ -8,6 +8,7 @@ import ContactForm from "./ContactForm";
 import {
   PROTOMOTA,
   NEWSLETTER,
+  DISCORD,
   NAV,
   CONTACT,
   SOCIALS,
@@ -467,7 +468,21 @@ export default async function Home() {
         </section>
         )}
 
-        <section className="shell newsletter-wrap" id="newsletter">
+        <section className="shell newsletter-wrap" id="discord">
+          <div className="newsletter" data-reveal>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img className="discord-avatar" src="/discord/cult-of-protomota-160.webp" srcSet="/discord/cult-of-protomota-160.webp 1x, /discord/cult-of-protomota-320.webp 2x" width={64} height={64} alt="The Cult of Protomota Discord icon" loading="lazy" decoding="async" />
+            <div className="newsletter-copy">
+              <h2>Join The Cult of Protomota.</h2>
+              <p>{tie("The Protomota Discord community. Ask questions, get support for any of our apps, and get updates on new builds.")}</p>
+            </div>
+            <a className="btn btn-pill btn-lg" href={DISCORD} target="_blank" rel="noopener">
+              Join our Discord <Arrow />
+            </a>
+          </div>
+        </section>
+
+        <section className="shell newsletter-wrap discord-follow" id="newsletter">
           <div className="newsletter" data-reveal>
             <span className="newsletter-icon" aria-hidden="true"><MailIcon /></span>
             <div className="newsletter-copy">

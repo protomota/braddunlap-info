@@ -646,6 +646,11 @@ figure { margin: 0; }
   border: 1px solid color-mix(in oklab, var(--accent) 45%, var(--line-2)); color: var(--accent);
 }
 .newsletter-copy { flex: 1; min-width: 0; }
+.discord-avatar {
+  flex: none; width: 64px; height: 64px; border-radius: 50%; object-fit: cover;
+  box-shadow: 0 0 0 1px rgb(245 128 37 / 0.6), 0 0 22px rgb(245 128 37 / 0.38);
+}
+.newsletter-wrap.discord-follow { padding-top: 16px; }
 .newsletter-copy h2 {
   margin: 0 0 6px; font-family: var(--serif); font-weight: 600;
   font-size: clamp(24px, 2.6vw, 32px); letter-spacing: -0.03em; line-height: 1.1; text-wrap: balance;
