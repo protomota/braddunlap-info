@@ -151,7 +151,7 @@ export default async function Home() {
             <p className="hero-sub">
               Technology leader in <strong>AI, product and engineering</strong>. Technical lead and
               product owner at NTT DATA by day, founder of{" "}
-              <a href={PROTOMOTA}>Protomota&nbsp;Lab</a> the rest of the time.
+              <a href={PROTOMOTA}>Protomota</a> the rest of the time.
             </p>
             <p className="hero-sub hero-open">
               <strong>I&apos;m currently looking for new opportunities</strong> in AI automation
@@ -203,7 +203,7 @@ export default async function Home() {
               </p>
               <p>
                 Outside work I build and ship native AI-powered apps and AI agent systems through{" "}
-                <a href={PROTOMOTA}>Protomota&nbsp;Lab</a>.
+                <a href={PROTOMOTA}>Protomota</a>.
               </p>
             </div>
             <figure className="figures" data-reveal>
@@ -289,7 +289,7 @@ export default async function Home() {
           <Head
             n="03"
             title="Selected work"
-            note={<p>My client work is confidential, so these are my own builds from Protomota&nbsp;Lab.</p>}
+            note={<p>My client work is confidential, so these are my own builds from Protomota.</p>}
           />
           <div className="work">
             {WORK_ROWS.map((row, r) => (
