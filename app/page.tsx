@@ -1,4 +1,5 @@
 import { ProtomotaFamily } from './ProtomotaFamily';
+import ShareButton from './ShareButton';
 import { getPosts } from "@/lib/newsletter";
 import { jsonLdString, REEL } from "@/lib/seo";
 import CareerScene from "./CareerScene";
@@ -168,6 +169,7 @@ export default async function Home() {
               <a href={PROTOMOTA} className="btn btn-secondary btn-lg">
                 Visit Protomota <Arrow />
               </a>
+              <ShareButton className="bd-share" url="https://braddunlap.info/" title="Brad Dunlap" text="Engineering leader and AI builder. Founder of Protomota." />
             </div>
             <ul className="contact">
               {CONTACT.map((c) => (
@@ -385,6 +387,7 @@ export default async function Home() {
                   {p.also?.map((a) => (
                     <a className="lab-link card-also" key={a.href} href={a.href}>{a.host} <Arrow /></a>
                   ))}
+                  <ShareButton small className="bd-share" url={p.href} title={p.name} text={p.text} />
                 </span>
               </div>
             ))}

@@ -689,3 +689,8 @@ figure { margin: 0; }
 }
 .bullets a { color: var(--ink); text-decoration: none; border-bottom: 1px solid color-mix(in oklab, var(--accent) 45%, var(--line)); }
 .bullets a:hover { border-color: var(--accent); }
+
+/* Share pill (2026-11-21), behavior in public/protomota-share.js */
+.pm-share-btn.bd-share { --pm-share-accent: var(--accent); color: var(--ink); background: color-mix(in srgb, var(--bg) 70%, transparent); }
+.hero-cta .pm-share-btn.bd-share { height: 50px; padding: 0 22px 0 18px; }
+.lab-links-in .pm-share-btn.bd-share { margin-top: 12px; }

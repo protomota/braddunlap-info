@@ -104,6 +104,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en" className={`${grotesk.variable} ${inter.variable} ${mono.variable}`}>
       <body>
         {children}
+        {/* Share buttons (app/ShareButton.tsx) */}
+        <Script src="/protomota-share.js" strategy="afterInteractive" />
         {GA_ON && (
           <>
             <Script src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`} strategy="afterInteractive" />
