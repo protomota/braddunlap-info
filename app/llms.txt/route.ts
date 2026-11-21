@@ -65,7 +65,7 @@ function body() {
   }
   add(
     "",
-    `- [${REEL.name}](${REEL.mp4}): ${REEL.description}`,
+    `- [${REEL.name}](${REEL.url}): ${REEL.description}`,
     "",
     "## Skills",
     "",

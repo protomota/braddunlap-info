@@ -35,8 +35,13 @@ export const RESUME_MD = `${SITE}/brad-dunlap-resume-2026.md`;
 export const REEL = {
   name: "Brad Dunlap: my career in a minute",
   description: "A one-minute film of my career, from first iOS developer to technical lead and product owner, and the apps, AI agents, MCP servers and robots I build.",
-  hls: "https://media.protomota.com/career-reel/v1/master.m3u8",
-  mp4: "https://media.protomota.com/career-reel/v1/brad-dunlap-career-reel-1080p30.mp4",
+  youtubeId: "YTID_PLACEHOLDER",
+  get url() {
+    return `https://youtu.be/${this.youtubeId}`;
+  },
+  get embedUrl() {
+    return `https://www.youtube-nocookie.com/embed/${this.youtubeId}`;
+  },
   poster: `${SITE}/work/career-reel-poster.webp`,
   duration: "PT59S",
   uploadDate: "2026-11-11",
@@ -188,7 +193,8 @@ export function jsonLd() {
     thumbnailUrl: REEL.poster,
     uploadDate: REEL.uploadDate,
     duration: REEL.duration,
-    contentUrl: REEL.mp4,
+    embedUrl: REEL.embedUrl,
+    url: REEL.url,
     creator: ref(PERSON_ID),
     publisher: ref(PROTOMOTA_ID),
   };

@@ -31,7 +31,7 @@ The production build also runs TypeScript checks. There is no separate test runn
 | `lib/content.ts` | Shared copy, experience, projects, and links |
 | `app/page.tsx` | Server-rendered page |
 | `app/CareerScene.tsx` | Interactive Three.js career timeline |
-| `app/ReelPlayer.tsx` | Click-to-load HLS reel with a YouTube fallback |
+| `app/ReelPlayer.tsx` | Click-to-play career reel, a YouTube embed |
 | `app/ResumePicker.tsx` | PDF, Word, and Markdown résumé downloads |
 | `app/api/contact/route.ts` | Server-side email through Resend |
 | `app/globals.css` | Layout, design tokens, and scroll animations |

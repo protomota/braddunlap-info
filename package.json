@@ -9,7 +9,6 @@
   },
   "dependencies": {
     "@marsidev/react-turnstile": "^1.6.3",
-    "hls.js": "^1.6.15",
     "next": "^16.3.0",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",

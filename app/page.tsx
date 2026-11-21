@@ -361,8 +361,7 @@ export default async function Home() {
           <figure className="reel" data-reveal>
             <div className="reel-frame">
               <ReelPlayer
-                src={REEL.hls}
-                mp4={REEL.mp4}
+                youtubeId={REEL.youtubeId}
                 title={REEL.name}
                 poster="/work/career-reel-poster.webp"
               />
