@@ -35,7 +35,7 @@ export const RESUME_MD = `${SITE}/brad-dunlap-resume-2026.md`;
 export const REEL = {
   name: "Brad Dunlap: my career in a minute",
   description: "A one-minute film of my career, from first iOS developer to technical lead and product owner, and the apps, AI agents, MCP servers and robots I build.",
-  youtubeId: "YTID_PLACEHOLDER",
+  youtubeId: "KPMcBjAJnjA",
   get url() {
     return `https://youtu.be/${this.youtubeId}`;
   },
