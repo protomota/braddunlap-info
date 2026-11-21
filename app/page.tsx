@@ -157,7 +157,7 @@ export default async function Home() {
               <strong>I&apos;m currently looking for new opportunities</strong> in AI automation
               and agentic AI. I&apos;m open to AI-first teams of any size, from an early-stage
               startup to a large company with AI at its core, where I can help ship AI that does
-              real work. I also build automation for small businesses through Protomota Lab. If you
+              real work. I also build automation for small businesses through Protomota. If you
               think what I offer fits what you&apos;re building,{" "}
               <a href={FORM_ON ? "#contact" : "mailto:brad@protomota.com"}>I&apos;d love to hear from&nbsp;you</a>.
             </p>
@@ -349,7 +349,7 @@ export default async function Home() {
             title="Protomota"
             note={
               <p>
-                Protomota Lab is where I build and ship my own apps: Jotley and PulseCanvas Studio on the
+                Protomota is where I build and ship my own apps: Jotley and PulseCanvas Studio on the
                 App Store, plus OpenTalon, Inkspring, Voxley and Textley for Mac. Most of my apps are productivity tools I build for my own work, use every day and give
                 away, and I help businesses get set up on them too. PulseCanvas Studio is my music video
                 app. Everything lives at&nbsp;<a href={PROTOMOTA}>protomota.com</a>.
@@ -413,7 +413,7 @@ export default async function Home() {
           <Head
             n="06"
             title="Writing"
-            note={<p>The Protomota Lab newsletter: what I&apos;m building and what I learn along the way.</p>}
+            note={<p>The Protomota newsletter: what I&apos;m building and what I learn along the way.</p>}
           />
           {posts.length > 0 && (
             <ol className="posts">

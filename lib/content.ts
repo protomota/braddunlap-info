@@ -49,7 +49,7 @@ export const KEY_FIGURES = [
   { value: "0", label: "Overruns during scoping program" },
   { value: "2", label: "Apps built solo, live on the App Store" },
   { value: "6", label: "Self-published websites and web apps" },
-  { value: "6", label: "Native apps shipped through Protomota Lab" },
+  { value: "6", label: "Native apps shipped through Protomota" },
   { value: "7", label: "Automotive brand apps led" },
   { value: "15", label: "Shopping center apps directed" },
 ];
@@ -102,7 +102,7 @@ export const EXPERIENCE: Org[] = [
     ],
   },
   {
-    org: "Protomota Lab",
+    org: "Protomota",
     note: "Independent work outside professional employment",
     href: PROTOMOTA,
     roles: [

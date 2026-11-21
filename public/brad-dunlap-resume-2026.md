@@ -6,7 +6,7 @@ Bradenton, FL · [brad@protomota.com](mailto:brad@protomota.com) · <https://bra
 
 ## Summary
 
-Technology leader with 20+ years automating business and technology work, from hand-written scripts, test-driven development and CI/CD pipelines at RIIS to AI agents built with Claude and Codex today. Focuses on signal over noise and roots out performance theater: work that checks boxes but doesn't move the needle. At NTT DATA, leads the team behind a Fortune 500 AI pilot. Now, with AI as a force multiplier, builds and ships native AI-powered apps and AI agent systems solo through Protomota Lab.
+Technology leader with 20+ years automating business and technology work, from hand-written scripts, test-driven development and CI/CD pipelines at RIIS to AI agents built with Claude and Codex today. Focuses on signal over noise and roots out performance theater: work that checks boxes but doesn't move the needle. At NTT DATA, leads the team behind a Fortune 500 AI pilot. Now, with AI as a force multiplier, builds and ships native AI-powered apps and AI agent systems solo through Protomota.
 
 ## Key figures
 
@@ -16,7 +16,7 @@ Technology leader with 20+ years automating business and technology work, from h
 | Overruns during scoping program | 0 projects |
 | Apps built solo, live on the App Store | 2 |
 | Self-published websites and web apps | 6 |
-| Native apps shipped through Protomota Lab | 6 |
+| Native apps shipped through Protomota | 6 |
 | Automotive brand apps led | 7 |
 | Shopping center apps directed | 15 |
 
@@ -41,7 +41,7 @@ Technology leader with 20+ years automating business and technology work, from h
 
 - Owned a multi-year iOS and Android application for a top U.S. manufacturing company, translating product direction into epics, user stories and acceptance criteria for a 20+ person team in Azure DevOps.
 
-### Protomota Lab
+### Protomota
 _Independent work outside professional employment_
 
 **Founder and Independent Developer** · protomota.com
@@ -120,7 +120,7 @@ Manufacturing, utilities and energy, automotive, retail and shopping centers, Io
 
 ## Selected work
 
-My client work is confidential, so these are my own builds from Protomota Lab.
+My client work is confidential, so these are my own builds from Protomota.
 
 ### Jotley
 

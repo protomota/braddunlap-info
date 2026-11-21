@@ -530,7 +530,7 @@ figure { margin: 0; }
 .reel figcaption { margin-top: 12px; }
 @media (max-width: 680px) { .reel-play { width: 64px; height: 64px; } .reel-play svg { width: 26px; height: 26px; } }
 
-/* ── protomota lab ────────────────────────────────────── */
+/* ── protomota ────────────────────────────────────────── */
 .lab { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
 .lab-card {
   display: flex; flex-direction: column; gap: 12px;
